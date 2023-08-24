@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: RunInput
+inputs:
+- persona_definition: "You are a Database admin"
+  question: "Write a program to print fib series"
+- persona_definition: "You are a python expert"
+  question: "Write a program to print fib series"

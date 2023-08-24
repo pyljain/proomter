@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PromptVersion
+version: v0.0.1
+prompt: |
+  Write a program in python to do {{question}}
+
+  Please respond with only the code in JSON format. If the code is runnable then respond with a key called "canRun"
+inputs:
+- name: persona_definition
+  type: string
+- name: question
+  type: string
